@@ -1,0 +1,152 @@
+body {text-align: center; margin: 0; font-family: 'Merriweather', serif; line-height: 1.5;  }
+p {margin: 0; }
+hr {margin: 0; display: block; }
+li {list-style: none;}
+a {text-decoration: none; color: inherit;  }
+hr {margin: 0 auto;  }
+img {width:200px; margin: 0;}
+
+h1,h2, h3, h4 {color:#b2d9d2; font-family: 'Montserrat', sans-serif; }
+
+
+/*-------- Generali ------*/
+
+.c1 {color: #b2d9d2;}
+.bc1 {background-color: #b2d9d2;}
+
+.c2 {color: #e0fcfa;}
+.bc2 {background-color: #e0fcfa;}
+
+.c3 {color: #fff;}
+.bc3 {background-color: #fff;}
+
+.c4 {color: #c22f2f;}
+.bc4 {background-color:  #c22f2f;}
+
+.c5 {color: #4a746e;}
+.bc5 {background-color:#4a746e;}
+
+.sacramento {font-family: 'Sacramento', serif; font-size: 2rem;}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+
+
+
+/*
+
+.nav-item {color: #e0fcfa; width: 30px; display: inline-block;}
+.nav-item:hover {color: #fff;}
+.nav-contatti {font-size: normal;}
+.nav-contatti:hover{font-weight: bold; }
+
+*/
+
+
+  /*--spazi--*/
+
+.section-space {margin: 0;  padding: 5rem 0 5rem 0;  box-sizing: content-box; clear: left; }
+.inline {display: inline-block; }
+
+  /*--------- Cover --------*/
+
+  /* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem; width: 100%;
+}
+
+.navbar-brand {
+  font-family: "Sacramento";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+padding-right: 1rem; padding-left: 1rem; position: absolute;
+}
+
+.nav-link {
+  font-size: 1.2rem; padding-right: 1rem; padding-left: 1rem; position: absolute;
+}
+
+/*
+.nav{margin: 0; padding: 1% 10% 1% 10%;}
+.nav-item {display: inline; padding-right: 1rem; padding-left: 1rem;} */
+.portfolio-item {border: solid 2px #4a746e;  border-radius: 10px; padding: 5px; padding-right: 0;  background-color: #e0fcfa; color: #b2d9d2; }
+.portfolio-item:hover{}
+
+.cover {height: 48rem;}
+.title {padding: 3rem 0; font-family: 'Sacramento', serif; font-size: 2rem;}
+.name {font-size: 1.5rem;}
+.img-cover {display: block; margin: 0 auto 0 auto; width: 25%; box-sizing: border-box; }
+
+/*---------Istruzione -------*/
+
+.formazione {background-image: url("images/campus.jpg"); background-position: center center; width:100%;}
+.istruzione {width: 70%; margin: 100px auto 100px auto; text-align: left; }
+.titolo-istruzione {text-align: center; position: relative;  }
+.lista-istruzione li {list-style: none; clear: left; text-align: left; padding-left: 20%; padding-right: 20%;  }
+.istruzione-img {width: 8%; text-align: center; display: inline-block; padding-top: 10px; position: relative; text-align: left;  }
+.titolo-formazione {position: absolute;  padding-top: 20px;  }
+.titolo-istruzione {padding-right: 200px; }
+.li-style {width: 15px;  }
+
+
+/*--------Interessi --------*/
+
+.content {box-sizing: border-box; padding: 3rem; margin: 1rem 0 7rem 0;}
+.sec-interessi {width: 100%; box-sizing: border-box;}
+.interessi {width: 50%; display: inline-block; float: left; box-sizing: border-box; padding: 1.5rem; }
+.img-interessi {width: 10rem; }
+
+.portfolio-button {border: solid 2px #4a746e; background-color: #e0fcfa; color: #4a746e; border-radius: 9px; width: 20%; height: 5%; margin: 2em auto;   }
+
+/*-------- Certificazioni ------*/
+
+.certificazioni {clear: left; }
+
+/*-------- Qualcosa su di me ------*/
+
+.about {padding-left: 3rem; padding-right: 3rem; margin-left: 40%;  }
+.me-img{width: 25%;float: left; padding-left: 10%;  }
+.hobby-item {display: inline-block; padding-right: 2.5rem;  }
+.hobby {padding-bottom: 5rem;  padding-top: 5rem; }
+
+/*-------- Contatti -------------*/
+
+.contatti {margin: 0; }
+.contatti-item {display: inline-block; padding: 2rem 2rem ; color: #e0fcfa;  }
+.contatti-item:hover {color: #fff;}
+
+/*-------------------------------*/
+/*-------- Portfolio -----------*/
+
+.nav-barra {}
+.img-cover-portfolio { position: absolute; margin-left: 25%; margin-top: -10%; width: 12%;  }
+.cover-portfolio {}
+
+.logo-portfolio {width: 40px; }
+
+.content-portfolio {width: 80%; border: solid 1px #4a746e; margin: 3% auto; box-sizing: content-box; height: 35rem; padding: 5%;   }
+.box-testo {float: left; text-align: left; width: 40%; box-sizing: border-box;  }
+.img-progetto {width: 40%; }
